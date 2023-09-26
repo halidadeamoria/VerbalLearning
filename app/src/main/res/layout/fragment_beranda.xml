@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".fragment.BerandaFragment">
+    <!--Pemanggilan Toolbar dari app_bar_main-->
+
+    <!--Button Drawer-->
+    <!--Halo Text-->
+    <TextView
+        android:id="@+id/haloTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Halo, "
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+    <!--Panggil Nama User yang diinputkan disini-->
+    <TextView
+        android:id="@+id/userTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baumans_regular"
+        android:text="Cendana "
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="@id/haloTxt"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--3 Menu Utama-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvData"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/userTxt">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/ic_beranda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-195dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_homemenu"
+        app:layout_constraintTop_toBottomOf="@+id/rvData"
+        tools:ignore="MissingConstraints" />
+
+    <!--    <LinearLayout-->
+<!--        android:id="@+id/berandaMenuLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="25dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:weightSum="3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/userTxt">-->
+<!--        &lt;!&ndash;Menu Konsonan&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/konsonanLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/bg_blue"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/konsonanTxt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:fontFamily="@font/inter_bold"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Konsonan"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="27sp" />-->
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash;Menu Vokal&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/vokalLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/bg_red"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/vokalTxt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:fontFamily="@font/inter_bold"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Vokal"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="27sp" />-->
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash;Menu DwiHuruf&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/dwihurufLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/bg_yellow"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/dwihurufTxt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:fontFamily="@font/inter_bold"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Dwihuruf"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="27sp" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

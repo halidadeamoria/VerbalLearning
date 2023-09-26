@@ -1,0 +1,854 @@
+<resources>
+    <string name="app_name">Verbal Learning</string>
+    <!--Boarding Screen-->
+    <string name="titleboarding">Learn and Improve</string>
+    <string name="bodyboarding">We are here to help people to improve\ntheir pronounciation and articulation of the\nstandard Bahasa Indonesia Speech Sounds</string>
+    <string name="btn_onboarding">Masuk Sekarang</string>
+
+    <!--Boarding 2 Screen-->
+    <string name="titleboarding2">Buat Profil Anda</string>
+    <string name="bodyboarding2">Tulis nama profil yang Anda inginkan atau\nberi tahu kami siapa yang akan\nmenggunakan aplikasi ini</string>
+    <string name="nextpage">lanjut ke halaman utama >></string>
+
+    <!--Boarding 3 Screen-->
+    <string name="titleboarding3">Halo,</string>
+    <string name="bodyboarding3">Yeay! Profil Anda telah lengkap\nSekarang kamu bisa menggunakan\nAplikasi Articulation Learning.</string>
+    <string name="btn_onboarding3">Mulai Sekarang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_a">
+    </string>
+    <string name="text_b">
+        Dalam bahasa Indonesia, huruf "b" umumnya diucapkan dengan suara yang keras dan pendek. Bila berada di akhir kata, kadang dilafalkan sebagai [p]. Untuk mengucapkan huruf "b" dalam bahasa Indonesia, letakkan bibir Anda secara rapat dan kemudian keluarkan suara dengan melepaskan tekanan udara yang terperangkap di dalam mulut saat bibir terbuka. Suara yang dihasilkan harus pendek dan jelas.
+    </string>
+    <string name="text_c">
+        Dalam bahasa Indonesia, huruf "c" umumnya diucapkan dengan suara /tʃ/. Untuk mengucapkannya, letakkan lidah Anda di belakang gigi seri atas dan lepaskan suara dengan menghasilkan hembusan udara yang terhalang oleh lidah dan gigi tersebut. Suara yang dihasilkan harus terdengar seperti kombinasi antara "t" dan "s".
+    </string>
+    <string name="text_d">
+        Dalam bahasa Indonesia, huruf "d" umumnya diucapkan dengan suara /d/. Untuk mengucapkannya, letakkan ujung lidah Anda di belakang gigi seri atas dan lepaskan suara dengan mengeluarkan udara dengan lembut. Suara yang dihasilkan harus terdengar seperti "d" yang jelas dan tegas.
+    </string>
+    <string name="text_e">
+    </string>
+    <string name="text_f">
+        Dalam bahasa Indonesia, huruf "f" umumnya diucapkan dengan suara /f/. Untuk mengucapkannya, letakkan gigi atas di atas bibir bawah dan lepaskan suara dengan menghembuskan udara dengan kuat melalui celah di antara gigi dan bibir. Suara yang dihasilkan harus terdengar seperti bunyi "f" yang tajam dan jelas.
+    </string>
+    <string name="text_g">
+        Dalam bahasa Indonesia, huruf "g" umumnya diucapkan dengan suara /ɡ/. Untuk mengucapkannya, letakkan belakang lidah Anda di langit-langit mulut dan lepaskan suara dengan menghentikan aliran udara dan kemudian melepaskannya secara tiba-tiba. Suara yang dihasilkan harus terdengar seperti bunyi "g" yang keras dan jelas.
+    </string>
+    <string name="text_h">
+        Dalam bahasa Indonesia, huruf "h" umumnya diucapkan dengan suara /h/. Untuk mengucapkannya, buka mulut Anda dengan lebar dan lepaskan suara tanpa hambatan udara dengan membiarkan udara keluar dari tenggorokan. Suara yang dihasilkan harus terdengar seperti hembusan napas yang halus dan lembut
+    </string>
+    <string name="text_i">
+    </string>
+    <string name="text_j">
+        Dalam bahasa Indonesia, huruf "j" diucapkan dengan suara /j/. Untuk mengucapkannya, letakkan ujung lidah di belakang gigi depan atas dan lepaskan suara dengan sedikit hambatan udara.Ketika mengucapkan huruf "j", buka mulut Anda dengan lebar dan lepaskan suara dengan lembut seperti hembusan napas yang terhalus.
+    </string>
+    <string name="text_k">
+        Dalam bahasa Indonesia, huruf "k" diucapkan dengan suara /k/. Untuk mengucapkannya, rapatkan lidah ke langit-langit mulut bagian belakang, kemudian lepaskan lidah tiba-tiba untuk menghasilkan suara /k/. Ketika mengucapkan huruf "k", buka mulut Anda dengan lebar dan lepaskan suara dengan sedikit hambatan udara untuk menghasilkan bunyi /k/ yang tegas dan jelas.
+    </string>
+    <string name="text_l">
+        Dalam bahasa Indonesia, huruf "l" diucapkan dengan suara /l/. Untuk mengucapkannya, letakkan ujung lidah di belakang gigi depan atas dan lepaskan suara tanpa hambatan udara. Suara yang dihasilkan harus terdengar seperti /l/ dalam kata "lari" atau "lampu". Ketika mengucapkan huruf "l", buka mulut Anda dengan lebar dan biarkan suara /l/ keluar dengan lembut dan terdengar jelas.
+    </string>
+    <string name="text_m">
+        Dalam bahasa Indonesia, huruf "m" diucapkan dengan suara /m/. Untuk mengucapkannya, rapatkan bibir bersama-sama dan lepaskan suara dengan hambatan udara yang ringan. Ketika mengucapkan huruf "m", buka mulut Anda dengan lebar dan lepaskan suara /m/ dengan bibir yang rapat untuk menghasilkan bunyi yang resonan dan jelas.
+    </string>
+    <string name="text_n">
+        Dalam bahasa Indonesia, huruf "n" diucapkan dengan suara /n/. Untuk mengucapkannya, letakkan ujung lidah di belakang gigi depan atas dan lepaskan suara dengan hambatan udara yang ringan. Ketika mengucapkan huruf "n", buka mulut Anda dengan lebar dan biarkan suara /n/ keluar dengan lembut dan terdengar jelas.
+    </string>
+    <string name="text_o">
+    </string>
+    <string name="text_p">
+        Dalam bahasa Indonesia, huruf "p" diucapkan dengan suara /p/. Untuk mengucapkannya, rapatkan bibir dan lepaskan suara dengan hambatan udara yang kuat. Suara yang dihasilkan harus terdengar seperti /p/ dalam kata "pohon" atau "pulpen". Ketika mengucapkan huruf "p", rapatkan bibir Anda dengan kuat dan lepaskan suara /p/ dengan dorongan kuat untuk menghasilkan bunyi yang tegas dan jelas.
+    </string>
+    <string name="text_q">
+        Dalam bahasa Indonesia, huruf "q" tidak digunakan secara umum dan sangat jarang ditemui dalam kata-kata yang berasal dari bahasa Indonesia. Oleh karena itu, tidak ada cara khusus untuk mengucapkannya dalam konteks bahasa Indonesia standar. Jika Anda menemui kata yang mengandung huruf "q" dalam bahasa Indonesia, biasanya itu merupakan kata serapan dari bahasa asing seperti bahasa Inggris atau bahasa Arab, dan cara pengucapannya mengikuti aturan fonetik dari bahasa asalnya. Tidak jarang huruf “q” dibaca sama dengan huruf “k”.
+    </string>
+    <string name="text_r">
+        Dalam bahasa Indonesia, huruf "r" umumnya diucapkan dengan suara /r/. Untuk mengucapkannya, letakkan ujung lidah di belakang gigi depan atas dan lepaskan suara dengan getaran ringan.
+    </string>
+    <string name="text_s">
+        Dalam bahasa Indonesia, huruf "s" diucapkan dengan suara /s/. Untuk mengucapkannya, rapatkan lidah ke langit-langit mulut bagian atas dan lepaskan suara dengan hambatan udara yang ringan.Ketika mengucapkan huruf "s", buka mulut Anda dengan sedikit hambatan udara dan lepaskan suara /s/ dengan lidah yang rapat untuk menghasilkan bunyi yang jelas dan tajam.
+    </string>
+    <string name="text_t">
+        Dalam bahasa Indonesia, huruf "t" diucapkan dengan suara /t/. Untuk mengucapkannya, rapatkan lidah ke langit-langit mulut bagian atas, kemudian lepaskan lidah secara tiba-tiba untuk menghasilkan suara /t/. Ketika mengucapkan huruf "t", buka mulut Anda dengan lebar dan lepaskan suara /t/ dengan lidah yang rapat untuk menghasilkan bunyi yang tegas dan jelas.
+    </string>
+    <string name="text_u">
+    </string>
+    <string name="text_v">
+        Dalam bahasa Indonesia, tidak terdapat huruf "v" yang diucapkan dengan suara /v/ secara umum. Huruf "v" dalam bahasa Indonesia cenderung diucapkan seperti huruf "f". Contohnya, dalam kata "video" atau "versi", huruf "v" diucapkan sebagai /f/. Hal ini karena pengucapan huruf "v" dalam bahasa Indonesia telah mengalami adaptasi fonetik.
+    </string>
+    <string name="text_w">
+        Dalam bahasa Indonesia, huruf "w" diucapkan dengan suara /w/. Untuk mengucapkannya, bibir Anda harus sedikit membentuk posisi bulat dan rapat. Lepaskan suara dengan menghembuskan udara melalui bibir yang rapat untuk menghasilkan bunyi /w/
+    </string>
+    <string name="text_x">
+        Dalam bahasa Indonesia, tidak terdapat huruf "x" yang diucapkan secara umum. Huruf "x" dalam bahasa Indonesia cenderung diucapkan seperti huruf "ks". Contohnya, dalam kata "eksperimen" atau "eksklusif", huruf "x" diucapkan sebagai /ks/.
+    </string>
+    <string name="text_y">
+        Dalam bahasa Indonesia, huruf "y" diucapkan dengan suara /j/. Untuk mengucapkannya, bibir Anda harus sedikit terbuka, lidah Anda harus mendekati langit mulut bagian atas. Lepaskan suara dengan mendorong udara melalui celah sempit antara lidah dan langit-langit untuk menghasilkan bunyi /j/.
+    </string>
+    <string name="text_z">
+        Dalam bahasa Indonesia, huruf "z" diucapkan dengan suara /z/. Untuk mengucapkannya, bibir Anda harus sedikit terbuka dan lidah Anda harus menjauhi langit-langit mulut. Lepaskan suara dengan mendorong udara melalui celah sempit antara gigi dan lidah untuk menghasilkan bunyi /z/.
+    </string>
+    <string-array name="words_a">
+
+    </string-array>
+    <string-array name="words_b">
+        <item><b>B</b>uku</item>
+        <item><b>B</b>ola</item>
+        <item><b>B</b>ali</item>
+        <item><b>B</b>esar</item>
+        <item><b>B</b>iru</item>
+    </string-array>
+    <string-array name="words_c">
+        <item>Cicak</item>
+        <item>
+        Cuci</item>
+        <item>
+        Coklat</item>
+        <item>
+        Cinta</item>
+        <item>
+        Cerah</item>
+    </string-array>
+    <string-array name="words_d">
+        <item>Doa</item>
+        <item>
+        Dinding</item>
+        <item>
+        Duduk</item>
+        <item>
+        Daging</item>
+        <item>
+        Domba</item>
+
+    </string-array>
+    <string-array name="words_f">
+        <item>Foto</item>
+        <item>
+        Fajar</item>
+        <item>
+        Fakta</item>
+        <item>
+        Flora</item>
+        <item>
+        Fungsi</item>
+
+    </string-array>
+    <string-array name="words_g">
+        <item>Garpu</item>
+        <item>
+        Gitar</item>
+        <item>
+        Gajah</item>
+        <item>
+        Gelas</item>
+        <item>
+        Gula</item>
+
+    </string-array>
+
+    <string-array name="words_h">
+        <item>Hutan</item>
+        <item>
+        Hati</item>
+        <item>
+        Hidup</item>
+        <item>
+        Hewan</item>
+        <item>
+        Hobi</item>
+    </string-array>
+    <string-array name="words_j">
+        <item>Jalan</item>
+        <item>
+        Jatuh</item>
+        <item>
+        Jual</item>
+        <item>
+        Jembatan</item>
+        <item>
+        Jerapah</item>
+    </string-array>
+    <string-array name="words_k">
+        <item>Kursi</item>
+        <item>
+        Kamera</item>
+        <item>
+        Kucing</item>
+        <item>
+        Kayu</item>
+        <item>
+        Kaki</item>
+
+    </string-array>
+    <string-array name="words_l">
+        <item>Lampu</item>
+        <item>
+        Lukisan</item>
+        <item>
+        Laut</item>
+        <item>
+        Lompat</item>
+        <item>
+        Lemari</item>
+    </string-array>
+    <string-array name="words_m">
+        <item>Meja</item>
+        <item>
+        Mobil</item>
+        <item>
+        Musik</item>
+        <item>
+        Makan</item>
+        <item>
+        Matahari</item>
+    </string-array>
+    <string-array name="words_n">
+        <item>Nama</item>
+        <item>
+        Nenek</item>
+        <item>
+        Novel</item>
+        <item>
+        Nelayan</item>
+        <item>
+        Nasi</item>
+    </string-array>
+    <string-array name="words_p">
+        <item>Puisi</item>
+        <item>
+        Pohon</item>
+        <item>
+        Pesawat</item>
+        <item>
+        Perpustakaan</item>
+        <item>
+        Pantai</item>
+    </string-array>
+    <string-array name="words_q">
+        <item>Kualitas (dari bahasa Inggris)</item>
+        <item>
+        Kuantitas (dari bahasa Inggris)</item>
+        <item>
+        Kuota (dari bahasa Inggris)</item>
+        <item>
+        Kuartet (dari bahasa Inggris)</item>
+        <item>
+        Qur`an (dari bahasa Arab)</item>
+    </string-array>
+    <string-array name="words_r">
+        <item>Rumah</item>
+        <item>
+        Roti</item>
+        <item>
+        Raja</item>
+        <item>
+        Roket</item>
+        <item>
+        Rencana</item>
+    </string-array>
+    <string-array name="words_s">
+        <item>Sekolah</item>
+        <item>
+        Sapi</item>
+        <item>
+        Susu</item>
+        <item>
+        Singa</item>
+        <item>
+        Sore</item>
+    </string-array>
+    <string-array name="words_t">
+        <item>Tangan</item>
+        <item>
+        Tinggi</item>
+        <item>
+        Tidur</item>
+        <item>
+        Tas</item>
+        <item>
+        Telur</item>
+    </string-array>
+    <string-array name="words_v">
+        <item>Vokal</item>
+        <item>
+        Virus</item>
+        <item>
+        Variasi</item>
+        <item>
+        Voli</item>
+        <item>
+        Verifikasi</item>
+    </string-array>
+    <string-array name="words_w">
+        <item>Wanita</item>
+        <item>
+        Waktu</item>
+        <item>
+        Warna</item>
+        <item>
+        Wajah</item>
+        <item>
+        Warung</item>
+    </string-array>
+    <string-array name="words_x">
+        <item>Xylofon</item>
+        <item>Xerografi</item>
+        <item>
+        X-ray</item>
+        <item>
+        Xebec</item>
+        <item>
+        Xenofobia</item>
+    </string-array>
+    <string-array name="words_y">
+        <item>Yakin</item>
+        <item>Yoga</item>
+        <item>Yatim</item>
+        <item>Yudisium</item>
+        <item>Yurisdiksi</item>
+    </string-array>
+    <string-array name="words_z">
+        <item>Zebra</item>
+        <item>
+        Zumba</item>
+        <item>
+        Zaman</item>
+        <item>
+        Zigzag</item>
+        <item>
+        Ziarah</item>
+    </string-array>
+
+
+    // sentences
+    <string-array name="sentences_a"></string-array>
+    <string-array name="sentences_b">
+        <item>Ini <b>B</b>uku Saya</item>
+        <item>
+            <b>B</b>ola itu <b>b</b>undar</item>
+        <item>
+        Saya akan pergi ke <b>B</b>ali</item>
+        <item>
+            <b>B</b>enda itu <b>B</b>esar</item>
+        <item>
+            <b>B</b>aju saya <b>B</b>erwarna <b>B</b>iru</item>
+    </string-array>
+    <string-array name="sentences_c">
+        <item>Cicak didinding</item>
+        <item>
+        Cuci tangan sebelum makan</item>
+        <item>
+        Coklat ini rasanya manis</item>
+        <item>
+        Aku Cinta Kamu</item>
+        <item>
+        Hari ini Cerah sekali</item>
+    </string-array>
+    <string-array name="sentences_d">
+        <item>Awali Doa disetiap pagi</item>
+        <item>
+        Dinding itu berwarna cerah</item>
+        <item>
+        Duduk dan istirahat disini</item>
+        <item>
+        Ini adalah Daging sapi</item>
+        <item>
+        Domba adalah binatang</item>
+
+    </string-array>
+    <string-array name="sentences_f">
+        <item>Album foto keluarga</item>
+        <item>
+        Adik saya bernama Fajar</item>
+        <item>
+        Fakta itu mengejutkan</item>
+        <item>
+        Flora indah</item>
+        <item>
+        Fungsi itu penting</item>
+    </string-array>
+    <string-array name="sentences_g">
+        <item>Garpu adalah alat makan</item>
+        <item>
+        Gitar dimainkan dengan cara dipetik</item>
+        <item>
+        Gajah memiliki belalai yang panjang</item>
+        <item>
+        Gelas digunakan untuk minum</item>
+        <item>
+        Gula rasanya manis</item>
+
+    </string-array>
+    <string-array name="sentences_h">
+        <item>Hutan ini hijau dan lebat</item>
+        <item>
+        Hati kita harus selalu bahagia</item>
+        <item>
+        Hidup ini penuh makna</item>
+        <item>
+        Harimau adalah Hewan buas</item>
+        <item>
+        Hobi saya adalah membaca buku</item>
+    </string-array>
+    <string-array name="sentences_j">
+        <item>Jalan basah setelah hujan</item>
+        <item>
+        Adik Jatuh dari sepeda</item>
+        <item>
+        Kakek itu Jual makanan</item>
+        <item>
+        Jembatan Kelok Sembilan</item>
+        <item>
+        Jerapah memiliki leher yang panjang</item>
+    </string-array>
+    <string-array name="sentences_k">
+        <item>Kursi itu sangat empuk</item>
+        <item>
+        Kamera adalah alat digital</item>
+        <item>
+        Kucing adalah binatang yang lucu</item>
+        <item>
+        Kayu berasal dari batang pohon</item>
+        <item>
+        Kaki digunakan untuk berjalan</item>
+
+    </string-array>
+    <string-array name="sentences_l">
+        <item>Lampu itu terang sekali</item>
+        <item>
+        Lukisan ini sangat indah</item>
+        <item>
+        Laut biru sangat luas</item>
+        <item>
+        Adik lompat-lompat diatas trampolin</item>
+        <item>
+        Lemari itu berisi pakaian</item>
+    </string-array>
+    <string-array name="sentences_m">
+        <item>Meja itu terbuat dari kayu</item>
+        <item>
+        Mobil itu melaju sangat kencang</item>
+        <item>
+        Alunan Musik membuat tenang</item>
+        <item>
+        Ibu sedang Makan ikan</item>
+        <item>
+        Sinar Matahari pagi sangat cerah</item>
+
+    </string-array>
+    <string-array name="sentences_n">
+        <item>Siapa Nama Kamu?</item>
+        <item>
+        Nenek senang jika dikunjungi</item>
+        <item>
+        Kakak suka membaca novel</item>
+        <item>
+        Nelayan menangkap ikan</item>
+        <item>
+        Nasi adalah makanan pokok</item>
+    </string-array>
+    <string-array name="sentences_p">
+        <item>Puisi tentang alam yang indah</item>
+        <item>
+        Pohon yang rindang</item>
+        <item>
+        Pesawat terbang tinggi di udara</item>
+        <item>
+        Perpustakaan tempat membaca buku</item>
+        <item>
+        Pasir Pantai berwarna putih</item>
+    </string-array>
+    <string-array name="sentences_q">
+        <item>Kualitas produk ini cukup baik</item>
+        <item>Kuantitas barang belum mencukupi\nkebutuhan</item>
+        <item>Kuota internet</item>
+        <item>Grup musik dengan formasi kuartet</item>
+        <item>Qur\'an adalah kitab suci umat Islam</item>
+    </string-array>
+    <string-array name="sentences_r">
+        <item>Rumah itu besar sekali</item>
+        <item>Saya suka makan Roti</item>
+        <item>Itu adalah Raja Singa</item>
+        <item>Roket telah lepas landas</item>
+        <item>Rencana hari ini dibatalkan</item>
+    </string-array>
+    <string-array name="sentences_s">
+        <item>Adik berangkat ke Sekolah</item>
+        <item>Paman memiliki 3 ekor Sapi</item>
+        <item>Adik menyukai susu Sapi</item>
+        <item>Terdapat satu raja Singa di hutan</item>
+        <item>Cuaca Sore ini mendung</item>
+    </string-array>
+    <string-array name="sentences_t">
+        <item>Manusia memiliki 2 tangan</item>
+        <item>Budi lebih tinggi daripada Caca</item>
+        <item>Kakak sedar tidur</item>
+        <item>Ibu membeli sebuah Tas</item>
+        <item>Telur adalah makanan kesukaan saya</item>
+    </string-array>
+    <string-array name="sentences_v">
+        <item>Vokal adalah bagian penting\ndalam menyanyi</item>
+        <item>Virus korona masih menjadi\nperhatian global</item>
+        <item>Musik Indonesia memiliki variasi\nyang menarik</item>
+        <item>Tim voli sekolah menang turnamen</item>
+        <item>Verifikasi data sebelum\nmelanjutkan proses</item>
+    </string-array>
+    <string-array name="sentences_w">
+        <item>Wanita itu adalah Ibu saya</item>
+        <item>Waktu berlalu begitu cepat</item>
+        <item>Biru adalah warna kesukaan saya</item>
+        <item>Wajahnya memerah</item>
+        <item>Ibu belanja di warung</item>
+    </string-array>
+    <string-array name="sentences_x">
+        <item>Xylophone adalah sebuah alat\nmusik tiup</item>
+        <item>Proses xerografi digunakan\ndalam fotokopi</item>
+        <item>Dokter menggunakan X-ray\nuntuk pemeriksaan</item>
+        <item>Xebec adalah jenis kapal</item>
+        <item>Xenofobia merupakan ketakutan\nterhadap orang asing</item>
+    </string-array>
+    <string-array name="sentences_y">
+        <item>Saya sarapan dengan yoghurt setiap pagi</item>
+        <item>Ibuku senang mengikuti yoga setiap minggu</item>
+        <item>Anak yatim itu dibantu oleh yayasan</item>
+        <item>Mahasiswa akan mengikuti yudisium</item>
+        <item>Kasus tersebut dalam yurisdiksi pengadilan</item>
+    </string-array>
+    <string-array name="sentences_z">
+        <item>Zebra memiliki kulit berwarna\nbelang hitam putih</item>
+        <item>Kakak melakukan olahraga zumba</item>
+        <item>Saat ini kita hidup di zaman digital</item>
+        <item>Jalan ini memiliki jalur zigzag</item>
+        <item>Ziarah ke makam pahlawan</item>
+    </string-array>
+
+    <!--TEXT FOR VOCAL-->
+    <string name="title_a">a</string>
+    <string name="subtitle_a">apel</string>
+    <string name="text_vocal_a">
+        Dalam bahasa Indonesia, huruf "A" umumnya diucapkan dengan suara yang keras dan pendek. Bila berada di akhir kata, kadang dilafalkan sebagai [ah].\n\n
+Untuk mengucapkan huruf "A" dalam bahasa Indonesia, letakkan mulut Anda sedikit terbuka dengan lidah di bagian bawah dan langit-langit mulut dirapatkan. Keluarkan suara dengan menghembuskan udara dari paru-paru melalui mulut yang terbuka. Suara yang dihasilkan harus pendek dan jelas.
+    </string>
+    <string-array name="words_vocal_a">
+        <item>Anak</item>
+        <item>
+        Ayah</item>
+        <item>
+        Air</item>
+        <item>
+        Api</item>
+        <item>
+        Angin</item>
+    </string-array>
+    <string-array name="sentences_vocal_a">
+        <item>Anak bermain</item>
+        <item>
+        Ayah bekerja</item>
+        <item>
+        Air mengalir</item>
+        <item>
+        Api menyala</item>
+        <item>
+        Angin bertiup</item>
+    </string-array>
+
+    <string name="title_i">i</string>
+    <string name="subtitle_i">ibu</string>
+    <string name="text_vocal_i">
+       Dalam bahasa Indonesia, huruf "I" umumnya diucapkan dengan suara yang pendek dan tajam. Untuk mengucapkannya, letakkan lidah Anda di bagian bawah langit-langit mulut dan bibir sedikit menguncup. Keluarkan suara dengan menghentikan aliran udara dan kemudian melepaskannya dengan cepat.
+    </string>
+    <string-array name="words_vocal_i">
+        <item>Ibu</item>
+        <item>
+        Ikan</item>
+        <item>
+        Ini</item>
+        <item>
+        Ilmu</item>
+        <item>
+        Indonesia</item>
+    </string-array>
+    <string-array name="sentences_vocal_i">
+        <item>Ibu pergi ke pasar</item>
+        <item>
+        Saya suka Ikan</item>
+        <item>
+        Ini adalah tahu</item>
+        <item>
+        Kita sedang menuntut Ilmu</item>
+        <item>
+        Dia berasal dari Indonesia</item>
+    </string-array>
+
+    <string name="title_u">u</string>
+    <string name="subtitle_u">umur</string>
+    <string name="text_vocal_u">
+        Dalam bahasa Indonesia, huruf "U" umumnya diucapkan dengan suara yang panjang dan bulat. Untuk mengucapkannya, buka mulut Anda lebar dengan bibir sedikit mengerucut. Letakkan lidah di bagian bawah mulut dan sedikit terangkat ke atas. Keluarkan suara dengan menghembuskan udara dengan lama dan kuat melalui mulut yang terbuka.
+    </string>
+    <string-array name="words_vocal_u">
+        <item>Ular</item>
+        <item>
+        Uang</item>
+        <item>
+        Umur</item>
+        <item>
+        Udara</item>
+        <item>
+        Udang</item>
+    </string-array>
+    <string-array name="sentences_vocal_u">
+        <item>Ular bersembunyi di balik batang pohon.</item>
+        <item>
+        Ibu memberi uang jajan</item>
+        <item>
+        Umur kamu berapa? Umur saya 5 Tahun</item>
+        <item>
+        Udara pagi ini segar</item>
+        <item>
+        Saya tidak suka Udang</item>
+
+    </string-array>
+
+    <string name="title_e">e</string>
+    <string name="subtitle_e">enak</string>
+    <string name="text_vocal_e">
+        Dalam bahasa Indonesia, huruf "E" umumnya diucapkan dengan suara yang pendek dan terbuka. Untuk mengucapkannya, buka mulut Anda lebar dengan bibir sedikit menguncup. Letakkan lidah di tengah-tengah mulut dengan posisi yang rileks. Keluarkan suara dengan menghembuskan udara dengan cepat melalui mulut yang terbuka.
+    </string>
+    <string-array name="words_vocal_e">
+        <item>Es</item>
+        <item>
+        Emas</item>
+        <item>
+        Elang</item>
+        <item>
+        Enam</item>
+        <item>
+        Edukasi</item>
+    </string-array>
+    <string-array name="sentences_vocal_e">
+        <item>Es sedang mencair</item>
+        <item>
+        Emas ini berharga</item>
+        <item>
+        Elang terbang diatas awan</item>
+        <item>
+        Saya memiliki Enam buah apel</item>
+        <item>
+        Edukasi itu penting</item>
+    </string-array>
+
+    <string name="title_0">o</string>
+    <string name="subtitle_0">orang</string>
+    <string name="text_vocal_o">
+        Dalam bahasa Indonesia, huruf "O" umumnya diucapkan dengan suara yang bulat dan terbuka. Untuk mengucapkannya, buka mulut Anda lebar dengan bibir sedikit menguncup. Letakkan lidah di tengah-tengah mulut dengan posisi yang rileks. Keluarkan suara dengan menghembuskan udara dengan lama dan kuat melalui mulut yang terbuka.
+    </string>
+    <string-array name="words_vocal_o">
+        <item>Orang</item>
+        <item>
+        Ombak</item>
+        <item>
+        Otak</item>
+        <item>
+        Oranye</item>
+        <item>
+        Oksigen</item>
+    </string-array>
+    <string-array name="sentences_vocal_0">
+        <item>Orang itu pergi ke pasar</item>
+        <item>
+        Ombak itu besar sekali</item>
+        <item>
+        Otak selalu berfungsi</item>
+        <item>
+        Buah oranye memiliki rasa segar dan manis.</item>
+        <item>
+        Oksigen dibutuhkan manusia</item>
+    </string-array>
+
+    <!--TEXT FOR DIFTONG-->
+    <string name="title_dwitong_ai">Ai</string>
+    <string name="subtitle_dwitong_ai">pandai</string>
+    <string name="text_diftong_ai">
+    Dalam bahasa Indonesia, huruf "Ai" umumnya diucapkan dengan menyuarakan dua huruf secara bersamaan, yaitu "A" dan "i". Suara "A" diucapkan dengan keras dan pendek, sedangkan suara "i" diucapkan dengan membuka mulut sedikit lebih lebar dan meletakkan lidah di bagian atas gigi depan.\n
+    Bila huruf "Ai" berada di akhir kata, biasanya kedua huruf tersebut diucapkan secara terpisah, yaitu "A" diucapkan dengan keras dan pendek, sedangkan "i" diucapkan dengan menarik lidah ke belakang dan melepaskan suara yang lebih panjang.Untuk mengucapkan huruf "Ai" dengan benar dalam bahasa Indonesia, perlu latihan yang cukup dan fokus pada koordinasi antara bibir, lidah, dan paru-paru.</string>
+    <string-array name="words_diftong_ai">
+        <item>Air</item>
+        <item>Raih</item>
+        <item>Pandai</item>
+        <item>Kailan</item>
+        <item>Menghargai</item>
+    </string-array>
+    <string-array name="sentences_diftong_ai">
+        <item>Air mengalir jernih di sungai</item>
+        <item>Dia berhasil meraih impian</item>
+        <item>Adik budi pandai memecahkan teka-teki</item>
+        <item>Ibu senang memasak Tumis Kailan</item>
+        <item>Kita harus saling menghargai satu sama lain</item>
+    </string-array>
+
+    <string name="title_dwitong_au">Au</string>
+    <string name="subtitle_dwitong_au">harimau</string>
+    <string name="text_diftong_au">
+    Dalam bahasa Indonesia, huruf "Ai" umumnya diucapkan dengan menyuarakan dua huruf secara bersamaan, yaitu "A" dan "i". Suara "A" diucapkan dengan keras dan pendek, sedangkan suara "i" diucapkan dengan membuka mulut sedikit lebih lebar dan meletakkan lidah di bagian atas gigi depan.\n
+    Bila huruf "Ai" berada di akhir kata, biasanya kedua huruf tersebut diucapkan secara terpisah, yaitu "A" diucapkan dengan keras dan pendek, sedangkan "i" diucapkan dengan menarik lidah ke belakang dan melepaskan suara yang lebih panjang.Untuk mengucapkan huruf "Ai" dengan benar dalam bahasa Indonesia, perlu latihan yang cukup dan fokus pada koordinasi antara bibir, lidah, dan paru-paru.</string>
+    <string-array name="words_diftong_au">
+        <item>Kau</item>
+        <item>Bau</item>
+        <item>Harimau</item>
+        <item>Audit</item>
+        <item>Haus</item>
+    </string-array>
+    <string-array name="sentences_diftong_au">
+        <item>Air mengalir jernih di sungai</item>
+        <item>Dia berhasil meraih impian</item>
+        <item>Adik budi pandai memecahkan teka-teki</item>
+        <item>Ibu senang memasak Tumis Kailan</item>
+        <item>Kita harus saling menghargai satu sama lain</item>
+    </string-array>
+
+    <string name="title_dwitong_ei">Ei</string>
+    <string name="subtitle_dwitong_ei">survei</string>
+    <string name="text_diftong_ei">
+    Dalam bahasa Indonesia, huruf "Ai" umumnya diucapkan dengan menyuarakan dua huruf secara bersamaan, yaitu "A" dan "i". Suara "A" diucapkan dengan keras dan pendek, sedangkan suara "i" diucapkan dengan membuka mulut sedikit lebih lebar dan meletakkan lidah di bagian atas gigi depan.\n
+    Bila huruf "Ai" berada di akhir kata, biasanya kedua huruf tersebut diucapkan secara terpisah, yaitu "A" diucapkan dengan keras dan pendek, sedangkan "i" diucapkan dengan menarik lidah ke belakang dan melepaskan suara yang lebih panjang.Untuk mengucapkan huruf "Ai" dengan benar dalam bahasa Indonesia, perlu latihan yang cukup dan fokus pada koordinasi antara bibir, lidah, dan paru-paru.</string>
+    <string-array name="words_diftong_ei">
+        <item>survei</item>
+        <item>geiser</item>
+        <item>seimbang</item>
+    </string-array>
+    <string-array name="sentences_diftong_ei">
+        <item>Air mengalir jernih di sungai</item>
+        <item>Dia berhasil meraih impian</item>
+        <item>Adik budi pandai memecahkan teka-teki</item>
+        <item>Ibu senang memasak Tumis Kailan</item>
+        <item>Kita harus saling menghargai satu sama lain</item>
+    </string-array>
+
+    <string name="title_dwitong_oi">Oi</string>
+    <string name="subtitle_dwitong_oi">koboi</string>
+    <string name="text_diftong_oi">
+    Dalam bahasa Indonesia, huruf "Ai" umumnya diucapkan dengan menyuarakan dua huruf secara bersamaan, yaitu "A" dan "i". Suara "A" diucapkan dengan keras dan pendek, sedangkan suara "i" diucapkan dengan membuka mulut sedikit lebih lebar dan meletakkan lidah di bagian atas gigi depan.\n
+    Bila huruf "Ai" berada di akhir kata, biasanya kedua huruf tersebut diucapkan secara terpisah, yaitu "A" diucapkan dengan keras dan pendek, sedangkan "i" diucapkan dengan menarik lidah ke belakang dan melepaskan suara yang lebih panjang.Untuk mengucapkan huruf "Ai" dengan benar dalam bahasa Indonesia, perlu latihan yang cukup dan fokus pada koordinasi antara bibir, lidah, dan paru-paru.</string>
+    <string-array name="words_diftong_oi">
+        <item>boikot</item>
+        <item>koboi</item>
+        <item>egois</item>
+    </string-array>
+    <string-array name="sentences_diftong_oi">
+        <item>Air mengalir jernih di sungai</item>
+        <item>Dia berhasil meraih impian</item>
+        <item>Adik budi pandai memecahkan teka-teki</item>
+        <item>Ibu senang memasak Tumis Kailan</item>
+        <item>Kita harus saling menghargai satu sama lain</item>
+    </string-array>
+
+    <!--TEXT FOR DIGRAF-->
+    <string name="title_digraf_kh">kh (x)</string>
+    <string name="subtitle_digraf_kh">khusus</string>
+    <string name="text_digraf_kh">
+   Dalam bahasa Indonesia, huruf "kh" umumnya diucapkan dengan menghasilkan suara gesekan pada bagian belakang langit-langit mulut dan tenggorokan.Untuk mengucapkan huruf "kh", letakkan bagian belakang lidah di dekat langit-langit mulut, lalu hembuskan udara dengan kuat dan menghasilkan suara gesekan yang khas.
+Bila huruf "kh" berada di akhir kata, suara gesekan tersebut dapat berubah menjadi suara hentakan yang keras pada bagian belakang tenggorokan.Untuk mengucapkan huruf "kh" dengan benar dalam bahasa Indonesia, perlu latihan yang cukup dan fokus pada pengaturan tekanan udara dan posisi lidah.</string>
+    <string-array name="words_digraf_kh">
+        <item>Khaki</item>
+        <item>
+        Khusus</item>
+        <item>
+        Akhir</item>
+        <item>
+        Khas</item>
+        <item>
+        Khawatir</item>
+    </string-array>
+    <string-array name="sentences_digraf_kh">
+        <item>Khaki adalah salah satu jenis warna</item>
+        <item>
+        Makanan ini khusus untuk Ibu Guru</item>
+        <item>
+        Akhir yang begitu indah</item>
+        <item>
+        Bolu Kemojo adalah makanan khas Riau</item>
+        <item>
+        Khawatir tentang keselamatan.</item>
+    </string-array>
+
+    <string name="title_digraf_ng">ng(ŋ)</string>
+    <string name="subtitle_digraf_ng">ngarai</string>
+    <string name="text_digraf_ng">
+    Dalam bahasa Indonesia, huruf "ng" umumnya diucapkan dengan menggabungkan suara konsonan nasal /ŋ/ dan gesekan /g/. Untuk mengucapkan huruf "ng" dengan benar, letakkan belakang lidah Anda di dekat langit-langit mulut dan hembuskan udara dengan kuat melalui hidung sambil melepaskan gesekan dengan lidah di bagian belakang langit-langit mulut.\n
+Penting untuk melatih dan fokus pada pengaturan posisi lidah dan tekanan udara saat mengucapkan huruf "ng" dalam bahasa Indonesia agar dapat menghasilkan suara yang jelas dan tepat. Latihan dan pengulangan akan membantu memperbaiki pengucapan yang lebih baik.
+    </string>
+    <string-array name="words_digraf_ng">
+        <item>Ngeri</item>
+        <item>
+        Bangun</item>
+        <item>
+        Senang</item>
+        <item>
+        Ngabuburit</item>
+        <item>
+        Ngebut</item>
+    </string-array>
+    <string-array name="sentences_digraf_ng">
+        <item>Ngeri melihat aksi lompat bebas dari ketinggian.</item>
+        <item>
+        Adik bangun pagi hari ini</item>
+        <item>
+        Saya senang melihatnya</item>
+        <item>
+        Ngabuburit menjelang berbuka puasa.</item>
+        <item>
+        “Jangan ngebut dijalanan!”</item>
+    </string-array>
+
+    <string name="title_digraf_ny">ny(ɲ)</string>
+    <string name="subtitle_digraf_ny">nyata</string>
+    <string name="text_digraf_ny">Dalam bahasa Indonesia, huruf "ny" umumnya diucapkan dengan menghasilkan suara konsonan nasal palatal /ɲ/. Untuk mengucapkan huruf "ny" dengan benar, letakkan tengah lidah Anda di dekat langit-langit lunak dan hembuskan udara dengan lembut melalui hidung sambil melepaskan suara konsonan nasal palatal yang khas.\n
+Penting untuk melatih dan fokus pada pengaturan posisi lidah dan tekanan udara saat mengucapkan huruf "ny" dalam bahasa Indonesia agar dapat menghasilkan suara yang jelas dan tepat. Latihan secara teratur akan membantu memperbaiki pengucapan yang lebih baik.
+    </string>
+    <string-array name="words_digraf_ny">
+        <item>Nyala</item>
+        <item>Nyaman</item>
+        <item>Nyaris</item>
+        <item>Nyanyi</item>
+        <item>Banyak</item>
+    </string-array>
+    <string-array name="sentences_digraf_ny">
+        <item>Nyala lampu menyinari setiap sudut ruangan</item>
+        <item>
+        Tempat tidur ini begitu nyaman</item>
+        <item>
+        Saya nyaris terlambat</item>
+        <item>
+        Dia suka nyanyi dengan semangat yang tinggi.</item>
+        <item>
+        Terdapat banyak makanan pada meja makan</item>
+    </string-array>
+
+    <string name="title_digraf_sy">sy(ʃ)</string>
+    <string name="subtitle_digraf_sy">syarat</string>
+    <string name="text_digraf_sj">Dalam bahasa Indonesia, huruf "sy" umumnya diucapkan dengan menghasilkan suara konsonan desis sibilan palatal /ʃ/. Untuk mengucapkan huruf "sy" dengan benar, letakkan ujung lidah Anda dekat dengan langit-langit mulut, sementara udara dikeluarkan dengan lembut melalui celah sempit di antara lidah dan langit-langit. Suara yang dihasilkan harus terdengar seperti bunyi desis sibilan palatal yang jelas dan tajam.\n
+        Penting untuk melatih dan fokus pada pengaturan posisi lidah dan tekanan udara saat mengucapkan huruf "sy" dalam bahasa Indonesia agar dapat menghasilkan suara yang tepat. Latihan secara teratur akan membantu memperbaiki pengucapan yang lebih baik.
+</string>
+    <string-array name="words_digraf_sy">
+        <item>Syukur</item>
+        <item>
+        Syarat</item>
+        <item>
+        Syair</item>
+        <item>
+        Musyawarah</item>
+    </string-array>
+    <string-array name="sentences_digraf_sy">
+        <item>Kita harus mengucap Syukur setiap waktu</item>
+        <item>
+        Ada beberapa syarat yang harus dipenuhi.</item>
+        <item>
+        Dia melantunkan Syair yang indah</item>
+        <item>
+        Musyawarah itu berjalan lancar</item>
+    </string-array>
+</resources>

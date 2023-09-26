@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_50">#50FFFFFF</color>
+    <color name="white_90">#95FFFFFF</color>
+    <color name="yellow">#FFEB81</color>
+    <color name="primary">#00A176</color>
+    <color name="action">#66897D</color>
+    <color name="grey">#D0D0D0</color>
+    <color name="button">#A2CAC9</color>
+    <color name="buttonnav">#E1E8E6</color>
+    <color name="textwhite">#007E81</color>
+    <color name="bg">#D4E3D3</color>
+    <color name="hover">#DBE1DE</color>
+
+</resources>

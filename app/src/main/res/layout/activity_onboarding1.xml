@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A176"
+    tools:context=".Onboarding1">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifOnboarding"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/onboarding"
+        android:layout_marginTop="184dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleboarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="496dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/titleboarding"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bodyboarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/inter_light"
+        android:text="@string/bodyboarding"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleboarding" />
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/btn_onboarding"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_btn_masuksekarang"
+        android:drawableEnd="@drawable/ic_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodyboarding" />
+</androidx.constraintlayout.widget.ConstraintLayout>
